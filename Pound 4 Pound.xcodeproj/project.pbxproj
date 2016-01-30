@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A663994C1C5CC8F1000EBBBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663994B1C5CC8F1000EBBBC /* AppDelegate.swift */; };
+		A663994E1C5CC8F1000EBBBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663994D1C5CC8F1000EBBBC /* ViewController.swift */; };
+		A66399511C5CC8F1000EBBBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A663994F1C5CC8F1000EBBBC /* Main.storyboard */; };
+		A66399541C5CC8F1000EBBBC /* Pound_4_Pound.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A66399521C5CC8F1000EBBBC /* Pound_4_Pound.xcdatamodeld */; };
+		A66399561C5CC8F1000EBBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66399551C5CC8F1000EBBBC /* Assets.xcassets */; };
+		A66399591C5CC8F1000EBBBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66399571C5CC8F1000EBBBC /* LaunchScreen.storyboard */; };
+		A66399641C5CC8F1000EBBBC /* Pound_4_PoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66399631C5CC8F1000EBBBC /* Pound_4_PoundTests.swift */; };
+		A663996F1C5CC8F1000EBBBC /* Pound_4_PoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663996E1C5CC8F1000EBBBC /* Pound_4_PoundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A66399601C5CC8F1000EBBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66399401C5CC8F1000EBBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A66399471C5CC8F1000EBBBC;
+			remoteInfo = "Pound 4 Pound";
+		};
+		A663996B1C5CC8F1000EBBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66399401C5CC8F1000EBBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A66399471C5CC8F1000EBBBC;
+			remoteInfo = "Pound 4 Pound";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A66399481C5CC8F1000EBBBC /* Pound 4 Pound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pound 4 Pound.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A663994B1C5CC8F1000EBBBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A663994D1C5CC8F1000EBBBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A66399501C5CC8F1000EBBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A66399531C5CC8F1000EBBBC /* Pound_4_Pound.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pound_4_Pound.xcdatamodel; sourceTree = "<group>"; };
+		A66399551C5CC8F1000EBBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A66399581C5CC8F1000EBBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A663995A1C5CC8F1000EBBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A663995F1C5CC8F1000EBBBC /* Pound 4 PoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pound 4 PoundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66399631C5CC8F1000EBBBC /* Pound_4_PoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pound_4_PoundTests.swift; sourceTree = "<group>"; };
+		A66399651C5CC8F1000EBBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A663996A1C5CC8F1000EBBBC /* Pound 4 PoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pound 4 PoundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A663996E1C5CC8F1000EBBBC /* Pound_4_PoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pound_4_PoundUITests.swift; sourceTree = "<group>"; };
+		A66399701C5CC8F1000EBBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A66399451C5CC8F1000EBBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A663995C1C5CC8F1000EBBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66399671C5CC8F1000EBBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A663993F1C5CC8F1000EBBBC = {
+			isa = PBXGroup;
+			children = (
+				A663994A1C5CC8F1000EBBBC /* Pound 4 Pound */,
+				A66399621C5CC8F1000EBBBC /* Pound 4 PoundTests */,
+				A663996D1C5CC8F1000EBBBC /* Pound 4 PoundUITests */,
+				A66399491C5CC8F1000EBBBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A66399491C5CC8F1000EBBBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66399481C5CC8F1000EBBBC /* Pound 4 Pound.app */,
+				A663995F1C5CC8F1000EBBBC /* Pound 4 PoundTests.xctest */,
+				A663996A1C5CC8F1000EBBBC /* Pound 4 PoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A663994A1C5CC8F1000EBBBC /* Pound 4 Pound */ = {
+			isa = PBXGroup;
+			children = (
+				A663994B1C5CC8F1000EBBBC /* AppDelegate.swift */,
+				A663994D1C5CC8F1000EBBBC /* ViewController.swift */,
+				A663994F1C5CC8F1000EBBBC /* Main.storyboard */,
+				A66399551C5CC8F1000EBBBC /* Assets.xcassets */,
+				A66399571C5CC8F1000EBBBC /* LaunchScreen.storyboard */,
+				A663995A1C5CC8F1000EBBBC /* Info.plist */,
+				A66399521C5CC8F1000EBBBC /* Pound_4_Pound.xcdatamodeld */,
+			);
+			path = "Pound 4 Pound";
+			sourceTree = "<group>";
+		};
+		A66399621C5CC8F1000EBBBC /* Pound 4 PoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				A66399631C5CC8F1000EBBBC /* Pound_4_PoundTests.swift */,
+				A66399651C5CC8F1000EBBBC /* Info.plist */,
+			);
+			path = "Pound 4 PoundTests";
+			sourceTree = "<group>";
+		};
+		A663996D1C5CC8F1000EBBBC /* Pound 4 PoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A663996E1C5CC8F1000EBBBC /* Pound_4_PoundUITests.swift */,
+				A66399701C5CC8F1000EBBBC /* Info.plist */,
+			);
+			path = "Pound 4 PoundUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A66399471C5CC8F1000EBBBC /* Pound 4 Pound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66399731C5CC8F1000EBBBC /* Build configuration list for PBXNativeTarget "Pound 4 Pound" */;
+			buildPhases = (
+				A66399441C5CC8F1000EBBBC /* Sources */,
+				A66399451C5CC8F1000EBBBC /* Frameworks */,
+				A66399461C5CC8F1000EBBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pound 4 Pound";
+			productName = "Pound 4 Pound";
+			productReference = A66399481C5CC8F1000EBBBC /* Pound 4 Pound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A663995E1C5CC8F1000EBBBC /* Pound 4 PoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66399761C5CC8F1000EBBBC /* Build configuration list for PBXNativeTarget "Pound 4 PoundTests" */;
+			buildPhases = (
+				A663995B1C5CC8F1000EBBBC /* Sources */,
+				A663995C1C5CC8F1000EBBBC /* Frameworks */,
+				A663995D1C5CC8F1000EBBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A66399611C5CC8F1000EBBBC /* PBXTargetDependency */,
+			);
+			name = "Pound 4 PoundTests";
+			productName = "Pound 4 PoundTests";
+			productReference = A663995F1C5CC8F1000EBBBC /* Pound 4 PoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A66399691C5CC8F1000EBBBC /* Pound 4 PoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66399791C5CC8F1000EBBBC /* Build configuration list for PBXNativeTarget "Pound 4 PoundUITests" */;
+			buildPhases = (
+				A66399661C5CC8F1000EBBBC /* Sources */,
+				A66399671C5CC8F1000EBBBC /* Frameworks */,
+				A66399681C5CC8F1000EBBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A663996C1C5CC8F1000EBBBC /* PBXTargetDependency */,
+			);
+			name = "Pound 4 PoundUITests";
+			productName = "Pound 4 PoundUITests";
+			productReference = A663996A1C5CC8F1000EBBBC /* Pound 4 PoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A66399401C5CC8F1000EBBBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = pound4pound;
+				TargetAttributes = {
+					A66399471C5CC8F1000EBBBC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A663995E1C5CC8F1000EBBBC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A66399471C5CC8F1000EBBBC;
+					};
+					A66399691C5CC8F1000EBBBC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A66399471C5CC8F1000EBBBC;
+					};
+				};
+			};
+			buildConfigurationList = A66399431C5CC8F1000EBBBC /* Build configuration list for PBXProject "Pound 4 Pound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A663993F1C5CC8F1000EBBBC;
+			productRefGroup = A66399491C5CC8F1000EBBBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A66399471C5CC8F1000EBBBC /* Pound 4 Pound */,
+				A663995E1C5CC8F1000EBBBC /* Pound 4 PoundTests */,
+				A66399691C5CC8F1000EBBBC /* Pound 4 PoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A66399461C5CC8F1000EBBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66399591C5CC8F1000EBBBC /* LaunchScreen.storyboard in Resources */,
+				A66399561C5CC8F1000EBBBC /* Assets.xcassets in Resources */,
+				A66399511C5CC8F1000EBBBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A663995D1C5CC8F1000EBBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66399681C5CC8F1000EBBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A66399441C5CC8F1000EBBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66399541C5CC8F1000EBBBC /* Pound_4_Pound.xcdatamodeld in Sources */,
+				A663994E1C5CC8F1000EBBBC /* ViewController.swift in Sources */,
+				A663994C1C5CC8F1000EBBBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A663995B1C5CC8F1000EBBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66399641C5CC8F1000EBBBC /* Pound_4_PoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66399661C5CC8F1000EBBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A663996F1C5CC8F1000EBBBC /* Pound_4_PoundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A66399611C5CC8F1000EBBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A66399471C5CC8F1000EBBBC /* Pound 4 Pound */;
+			targetProxy = A66399601C5CC8F1000EBBBC /* PBXContainerItemProxy */;
+		};
+		A663996C1C5CC8F1000EBBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A66399471C5CC8F1000EBBBC /* Pound 4 Pound */;
+			targetProxy = A663996B1C5CC8F1000EBBBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A663994F1C5CC8F1000EBBBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66399501C5CC8F1000EBBBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A66399571C5CC8F1000EBBBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66399581C5CC8F1000EBBBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A66399711C5CC8F1000EBBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A66399721C5CC8F1000EBBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A66399741C5CC8F1000EBBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pound 4 Pound/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.hmtb.Pound-4-Pound";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A66399751C5CC8F1000EBBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pound 4 Pound/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.hmtb.Pound-4-Pound";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A66399771C5CC8F1000EBBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pound 4 PoundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.hmtb.Pound-4-PoundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pound 4 Pound.app/Pound 4 Pound";
+			};
+			name = Debug;
+		};
+		A66399781C5CC8F1000EBBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pound 4 PoundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.hmtb.Pound-4-PoundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pound 4 Pound.app/Pound 4 Pound";
+			};
+			name = Release;
+		};
+		A663997A1C5CC8F1000EBBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pound 4 PoundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.hmtb.Pound-4-PoundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pound 4 Pound";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A663997B1C5CC8F1000EBBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pound 4 PoundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.hmtb.Pound-4-PoundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pound 4 Pound";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A66399431C5CC8F1000EBBBC /* Build configuration list for PBXProject "Pound 4 Pound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66399711C5CC8F1000EBBBC /* Debug */,
+				A66399721C5CC8F1000EBBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66399731C5CC8F1000EBBBC /* Build configuration list for PBXNativeTarget "Pound 4 Pound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66399741C5CC8F1000EBBBC /* Debug */,
+				A66399751C5CC8F1000EBBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A66399761C5CC8F1000EBBBC /* Build configuration list for PBXNativeTarget "Pound 4 PoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66399771C5CC8F1000EBBBC /* Debug */,
+				A66399781C5CC8F1000EBBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A66399791C5CC8F1000EBBBC /* Build configuration list for PBXNativeTarget "Pound 4 PoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A663997A1C5CC8F1000EBBBC /* Debug */,
+				A663997B1C5CC8F1000EBBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A66399521C5CC8F1000EBBBC /* Pound_4_Pound.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A66399531C5CC8F1000EBBBC /* Pound_4_Pound.xcdatamodel */,
+			);
+			currentVersion = A66399531C5CC8F1000EBBBC /* Pound_4_Pound.xcdatamodel */;
+			path = Pound_4_Pound.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A66399401C5CC8F1000EBBBC /* Project object */;
+}
