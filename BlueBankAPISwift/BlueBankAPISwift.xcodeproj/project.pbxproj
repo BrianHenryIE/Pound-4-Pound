@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB532071C5D48CB00866522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB532061C5D48CB00866522 /* AppDelegate.swift */; };
+		1DB532091C5D48CB00866522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB532081C5D48CB00866522 /* ViewController.swift */; };
+		1DB5320C1C5D48CB00866522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB5320A1C5D48CB00866522 /* Main.storyboard */; };
+		1DB5320E1C5D48CB00866522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB5320D1C5D48CB00866522 /* Assets.xcassets */; };
+		1DB532111C5D48CB00866522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB5320F1C5D48CB00866522 /* LaunchScreen.storyboard */; };
+		1DB5321C1C5D48CB00866522 /* BlueBankAPISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5321B1C5D48CB00866522 /* BlueBankAPISwiftTests.swift */; };
+		1DB532271C5D48CB00866522 /* BlueBankAPISwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB532261C5D48CB00866522 /* BlueBankAPISwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB532181C5D48CB00866522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB531FB1C5D48CA00866522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB532021C5D48CB00866522;
+			remoteInfo = BlueBankAPISwift;
+		};
+		1DB532231C5D48CB00866522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB531FB1C5D48CA00866522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB532021C5D48CB00866522;
+			remoteInfo = BlueBankAPISwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB532031C5D48CB00866522 /* BlueBankAPISwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueBankAPISwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB532061C5D48CB00866522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DB532081C5D48CB00866522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DB5320B1C5D48CB00866522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DB5320D1C5D48CB00866522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DB532101C5D48CB00866522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DB532121C5D48CB00866522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB532171C5D48CB00866522 /* BlueBankAPISwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueBankAPISwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB5321B1C5D48CB00866522 /* BlueBankAPISwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueBankAPISwiftTests.swift; sourceTree = "<group>"; };
+		1DB5321D1C5D48CB00866522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB532221C5D48CB00866522 /* BlueBankAPISwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueBankAPISwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB532261C5D48CB00866522 /* BlueBankAPISwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueBankAPISwiftUITests.swift; sourceTree = "<group>"; };
+		1DB532281C5D48CB00866522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB532001C5D48CB00866522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB532141C5D48CB00866522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB5321F1C5D48CB00866522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB531FA1C5D48CA00866522 = {
+			isa = PBXGroup;
+			children = (
+				1DB532051C5D48CB00866522 /* BlueBankAPISwift */,
+				1DB5321A1C5D48CB00866522 /* BlueBankAPISwiftTests */,
+				1DB532251C5D48CB00866522 /* BlueBankAPISwiftUITests */,
+				1DB532041C5D48CB00866522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB532041C5D48CB00866522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB532031C5D48CB00866522 /* BlueBankAPISwift.app */,
+				1DB532171C5D48CB00866522 /* BlueBankAPISwiftTests.xctest */,
+				1DB532221C5D48CB00866522 /* BlueBankAPISwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB532051C5D48CB00866522 /* BlueBankAPISwift */ = {
+			isa = PBXGroup;
+			children = (
+				1DB532061C5D48CB00866522 /* AppDelegate.swift */,
+				1DB532081C5D48CB00866522 /* ViewController.swift */,
+				1DB5320A1C5D48CB00866522 /* Main.storyboard */,
+				1DB5320D1C5D48CB00866522 /* Assets.xcassets */,
+				1DB5320F1C5D48CB00866522 /* LaunchScreen.storyboard */,
+				1DB532121C5D48CB00866522 /* Info.plist */,
+			);
+			path = BlueBankAPISwift;
+			sourceTree = "<group>";
+		};
+		1DB5321A1C5D48CB00866522 /* BlueBankAPISwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DB5321B1C5D48CB00866522 /* BlueBankAPISwiftTests.swift */,
+				1DB5321D1C5D48CB00866522 /* Info.plist */,
+			);
+			path = BlueBankAPISwiftTests;
+			sourceTree = "<group>";
+		};
+		1DB532251C5D48CB00866522 /* BlueBankAPISwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DB532261C5D48CB00866522 /* BlueBankAPISwiftUITests.swift */,
+				1DB532281C5D48CB00866522 /* Info.plist */,
+			);
+			path = BlueBankAPISwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB532021C5D48CB00866522 /* BlueBankAPISwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB5322B1C5D48CB00866522 /* Build configuration list for PBXNativeTarget "BlueBankAPISwift" */;
+			buildPhases = (
+				1DB531FF1C5D48CB00866522 /* Sources */,
+				1DB532001C5D48CB00866522 /* Frameworks */,
+				1DB532011C5D48CB00866522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueBankAPISwift;
+			productName = BlueBankAPISwift;
+			productReference = 1DB532031C5D48CB00866522 /* BlueBankAPISwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DB532161C5D48CB00866522 /* BlueBankAPISwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB5322E1C5D48CB00866522 /* Build configuration list for PBXNativeTarget "BlueBankAPISwiftTests" */;
+			buildPhases = (
+				1DB532131C5D48CB00866522 /* Sources */,
+				1DB532141C5D48CB00866522 /* Frameworks */,
+				1DB532151C5D48CB00866522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB532191C5D48CB00866522 /* PBXTargetDependency */,
+			);
+			name = BlueBankAPISwiftTests;
+			productName = BlueBankAPISwiftTests;
+			productReference = 1DB532171C5D48CB00866522 /* BlueBankAPISwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DB532211C5D48CB00866522 /* BlueBankAPISwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB532311C5D48CB00866522 /* Build configuration list for PBXNativeTarget "BlueBankAPISwiftUITests" */;
+			buildPhases = (
+				1DB5321E1C5D48CB00866522 /* Sources */,
+				1DB5321F1C5D48CB00866522 /* Frameworks */,
+				1DB532201C5D48CB00866522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB532241C5D48CB00866522 /* PBXTargetDependency */,
+			);
+			name = BlueBankAPISwiftUITests;
+			productName = BlueBankAPISwiftUITests;
+			productReference = 1DB532221C5D48CB00866522 /* BlueBankAPISwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB531FB1C5D48CA00866522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Zhenbang Xiao";
+				TargetAttributes = {
+					1DB532021C5D48CB00866522 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1DB532161C5D48CB00866522 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1DB532021C5D48CB00866522;
+					};
+					1DB532211C5D48CB00866522 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1DB532021C5D48CB00866522;
+					};
+				};
+			};
+			buildConfigurationList = 1DB531FE1C5D48CA00866522 /* Build configuration list for PBXProject "BlueBankAPISwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DB531FA1C5D48CA00866522;
+			productRefGroup = 1DB532041C5D48CB00866522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB532021C5D48CB00866522 /* BlueBankAPISwift */,
+				1DB532161C5D48CB00866522 /* BlueBankAPISwiftTests */,
+				1DB532211C5D48CB00866522 /* BlueBankAPISwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB532011C5D48CB00866522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB532111C5D48CB00866522 /* LaunchScreen.storyboard in Resources */,
+				1DB5320E1C5D48CB00866522 /* Assets.xcassets in Resources */,
+				1DB5320C1C5D48CB00866522 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB532151C5D48CB00866522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB532201C5D48CB00866522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB531FF1C5D48CB00866522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB532091C5D48CB00866522 /* ViewController.swift in Sources */,
+				1DB532071C5D48CB00866522 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB532131C5D48CB00866522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB5321C1C5D48CB00866522 /* BlueBankAPISwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB5321E1C5D48CB00866522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB532271C5D48CB00866522 /* BlueBankAPISwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DB532191C5D48CB00866522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB532021C5D48CB00866522 /* BlueBankAPISwift */;
+			targetProxy = 1DB532181C5D48CB00866522 /* PBXContainerItemProxy */;
+		};
+		1DB532241C5D48CB00866522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB532021C5D48CB00866522 /* BlueBankAPISwift */;
+			targetProxy = 1DB532231C5D48CB00866522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DB5320A1C5D48CB00866522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB5320B1C5D48CB00866522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DB5320F1C5D48CB00866522 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB532101C5D48CB00866522 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DB532291C5D48CB00866522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DB5322A1C5D48CB00866522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB5322C1C5D48CB00866522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueBankAPISwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.starkshaw.BlueBankAPISwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DB5322D1C5D48CB00866522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueBankAPISwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.starkshaw.BlueBankAPISwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DB5322F1C5D48CB00866522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlueBankAPISwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.starkshaw.BlueBankAPISwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueBankAPISwift.app/BlueBankAPISwift";
+			};
+			name = Debug;
+		};
+		1DB532301C5D48CB00866522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlueBankAPISwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.starkshaw.BlueBankAPISwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueBankAPISwift.app/BlueBankAPISwift";
+			};
+			name = Release;
+		};
+		1DB532321C5D48CB00866522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlueBankAPISwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.starkshaw.BlueBankAPISwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueBankAPISwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1DB532331C5D48CB00866522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlueBankAPISwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.starkshaw.BlueBankAPISwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueBankAPISwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB531FE1C5D48CA00866522 /* Build configuration list for PBXProject "BlueBankAPISwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB532291C5D48CB00866522 /* Debug */,
+				1DB5322A1C5D48CB00866522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB5322B1C5D48CB00866522 /* Build configuration list for PBXNativeTarget "BlueBankAPISwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB5322C1C5D48CB00866522 /* Debug */,
+				1DB5322D1C5D48CB00866522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DB5322E1C5D48CB00866522 /* Build configuration list for PBXNativeTarget "BlueBankAPISwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB5322F1C5D48CB00866522 /* Debug */,
+				1DB532301C5D48CB00866522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DB532311C5D48CB00866522 /* Build configuration list for PBXNativeTarget "BlueBankAPISwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB532321C5D48CB00866522 /* Debug */,
+				1DB532331C5D48CB00866522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB531FB1C5D48CA00866522 /* Project object */;
+}
